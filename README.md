@@ -12,7 +12,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-Coffee Data Scraper is a web scraping project built using Scrapy, a powerful and flexible web scraping framework in Python. The scraper is designed to extract coffee-related information such as coffee name, price, and image from a coffee website. It navigates through the website's structure, selects specific HTML elements, and collects the desired data.
+Coffee Data Scraper is a web scraping project built using Scrapy (for a good friend of mine :P to use on his project), a powerful and flexible web scraping framework in Python. The scraper is designed to extract coffee-related information such as coffee name, price, and image from a coffee website. It navigates through the website's structure, selects specific HTML elements, and collects the desired data.
 
 Here's why this project can be useful:
 * Obtain coffee information from an online source without manual data entry.
