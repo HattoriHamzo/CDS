@@ -12,4 +12,3 @@ class CoffeeCrawlerItem(scrapy.Item):
     coffee_name: str = scrapy.Field()
     coffee_price: str = scrapy.Field()
     coffee_image: str = scrapy.Field()
-    pass

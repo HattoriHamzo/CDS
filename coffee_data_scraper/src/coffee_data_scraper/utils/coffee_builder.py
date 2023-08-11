@@ -1,4 +1,4 @@
-from ast import List
+from typing import List
 from coffee_data_scraper.coffee_crawler.coffee_crawler.items import CoffeeCrawlerItem
 
 

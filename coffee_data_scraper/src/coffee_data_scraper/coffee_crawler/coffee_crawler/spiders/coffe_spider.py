@@ -23,12 +23,12 @@ class CoffeeSpider(Spider):
     name: str = "coffe_spider"
     _SCRAPY_REQUESTS_URL: List[str] = json.loads(settings.SCRAPY_REQUESTS_URL)
 
-    custom_settings: dict = {
-        "ITEM_PIPELINES": {
-            "coffee_data_scraper.coffee_crawler.coffee_crawler.pipelines.CoffeeCrawlerPipeline": 300,
-            "coffee_data_scraper.coffee_crawler.coffee_crawler.pipelines.JsonWriterPipeline": 400,
-        }
-    }
+    # custom_settings: dict = {
+    #     "ITEM_PIPELINES": {
+    #         "coffee_data_scraper.coffee_crawler.coffee_crawler.pipelines.CoffeeCrawlerPipeline": 300,
+    #         "coffee_data_scraper.coffee_crawler.coffee_crawler.pipelines.JsonWriterPipeline": 400,
+    #     }
+    # }
 
     def start_requests(self) -> List[Request]:
         """

@@ -9,8 +9,8 @@
 
 BOT_NAME = "coffee_crawler"
 
-SPIDER_MODULES = ["coffee_crawler.spiders"]
-NEWSPIDER_MODULE = "coffee_crawler.spiders"
+SPIDER_MODULES = ["coffee_data_scraper.coffee_crawler.coffee_crawler.spiders"]
+NEWSPIDER_MODULE = "coffee_data_scraper.coffee_crawler.coffee_crawler.spiders"
 
 
 # Crawl responsibly by identifying yourself (and your website) on the user-agent
@@ -63,8 +63,8 @@ ROBOTSTXT_OBEY = True
 # Configure item pipelines
 # See https://docs.scrapy.org/en/latest/topics/item-pipeline.html
 ITEM_PIPELINES = {
-    "coffee_crawler.pipelines.CoffeeCrawlerPipeline": 300,
-    "coffee_crawler.pipelines.JsonWriterPipeline": 400,
+    "coffee_data_scraper.coffee_crawler.coffee_crawler.pipelines.CoffeeCrawlerPipeline": 300,
+    "coffee_data_scraper.coffee_crawler.coffee_crawler.pipelines.JsonWriterPipeline": 400,
 }
 
 # Enable and configure the AutoThrottle extension (disabled by default)
