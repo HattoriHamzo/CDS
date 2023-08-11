@@ -1,0 +1,23 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "coffee_spider debug",
+            "type": "python",
+            "request": "launch",
+            "module": "scrapy.cmdline",
+            "args": ["crawl", "coffe_spider"],
+            "cwd": "${workspaceFolder}/coffee_data_scraper/src/coffee_data_scraper/coffee_crawler/coffee_crawler/spiders"
+        },
+        {
+            "name": "main debug",
+            "type": "python",
+            "request": "launch",
+            "module": "main",
+            "cwd": "${workspaceFolder}/coffee_data_scraper/src/coffee_data_scraper/"
+        }
+    ]
+}

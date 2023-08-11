@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "coffee-data-scraper"
+version = "0.1.0"
+description = ""
+authors = ["Your Name <you@example.com>"]
+readme = "README.md"
+packages = [{include = "coffee_data_scraper", from = "src"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+scrapy = "^2.10.0"
+python-dotenv = "^1.0.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
